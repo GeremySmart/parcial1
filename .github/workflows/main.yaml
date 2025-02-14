@@ -20,4 +20,4 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
-          surge ./ https://TU-SUBDOMINIO.surge.sh --token 0463ca57c81ab0cfb621b430e581b89f
+          surge ./ https://geremydev.surge.sh --token $SURGE_TOKEN
